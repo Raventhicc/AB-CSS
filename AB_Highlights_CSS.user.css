@@ -145,7 +145,8 @@
 .torrent-page > [data-group*="Aergia"],
 .torrent-page > [data-group*="Vodes"],
 .torrent-page > [data-group*="FLFL"],
-.torrent-page > [data-group*="Smoke"]
+.torrent-page > [data-group*="Smoke"],
+.torrent-page > [data-group*="Lulu"]
 {
     color: #17e1a4;
 }
