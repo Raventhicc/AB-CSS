@@ -43,11 +43,13 @@
 
   };
 
+  
+  
+  createnewLink("nyaalink","https://nyaa.si/?f=0&c=0_0&q=","Nyaa",true);
+  createnewLink("u2link","https://u2.dmhy.org/torrents.php?incldead=1&spstate=0&inclbookmarked=0&search=","U2",true);
   createnewLink("tvDBlink","https://www.thetvdb.com/search?query=","TVDB",true);
   createnewLink("IMDBlink","https://www.imdb.com/find?q=","IMDB",true);
   createnewLink("anilistLink","https://anilist.co/search/anime?search=","Anilist",true);
-  createnewLink("u2link","https://u2.dmhy.org/torrents.php?incldead=1&spstate=0&inclbookmarked=0&search=","U2",true)
-  createnewLink("nyaalink","https://nyaa.si/?f=0&c=0_0&q=","Nyaa",true)
 
 
 })();
