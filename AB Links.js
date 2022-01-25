@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         AB Anilist Links
-// @version       1.1
+// @version       1.1.1
 // @description  Anilist AB linker (Edited by Raven)
-// @author       Chosensilver
+// @author       Dattebayo13
 // @icon         https://animebytes.tv/favicon.ico
 // @grant        none
 // @match        https://animebytes.tv/torrents.php*
