@@ -117,10 +117,11 @@
 
 .torrent-page > [data-group*="Commie"],
 .torrent-page > [data-group*="MTBB"],
-.torrent-page > [data-group*="PAS"],
+.torrent-page > [data-group="PAS"],
 .torrent-page > [data-group*="GJM"],
 .torrent-page > [data-group*="Kaleido"],
-.torrent-page > [data-group*="DDY"],
+.torrent-page > [data-group*="DameDesuYo"],
+.torrent-page > [data-group*="BlurayDesuYo"],
 .torrent-page > [data-group*="Foxtrot"],
 .torrent-page > [data-group*="Astral"],
 .torrent-page > [data-group*="0x539"],
