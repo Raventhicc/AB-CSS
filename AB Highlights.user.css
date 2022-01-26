@@ -1,0 +1,281 @@
+/* ==UserStyle==
+@name AB-Highlights-2-Stylesheet-Raven
+@author Raven
+@namespace Raven
+@description Requires AB Highlights 2 script.
+@version 0.1.5
+@Edited version of Datte13's
+==/UserStyle== */
+
+@-moz-document domain("animebytes.tv") {
+    .torrent-page > .torrent-field {
+        border-radius: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        word-spacing: normal;
+    }
+    
+    .torrent_table .group_torrent > td:first-child {
+        word-spacing: -0.3ex;
+    }
+    
+    .torrent-page > [data-group],
+    .torrent-page > [data-region] {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .torrent-page > [data-source*="Blu-ray"] {
+        color: #26a1ff;
+    }
+    
+    .torrent-page > [data-source="TV"] {
+        color: #f00;
+    }
+    .torrent-page > [data-source="Web"] {
+        color: #ff8000;
+    }
+    
+    .torrent-page > [data-container*="ISO"],
+    .torrent-page > [data-container*="M2TS"],
+    .torrent-page > [data-container*="MP4"] {
+        color: red;
+    }
+    
+    .torrent-page > [data-container*="MKV"] {
+        color: #f1c40f;
+    }
+    
+    .torrent-page > [data-codec="h264 10-bit"],
+    .torrent-page > [data-codec="h264"] {
+        color: #7deb7d;
+    }
+    
+    .torrent-page > [data-codec="h265"],
+    .torrent-page > [data-codec="h265 10-bit"] {
+        color: #16a5a5;
+    }
+    
+    .torrent-page > [data-resolution="4K"] {
+        color: yellow;
+    }
+    
+    .torrent-page > [data-resolution="1080p"] {
+        color: #f1c40f;
+    }
+    
+    .torrent-page > [data-audio-codec="MP3"],
+    .torrent-page > [data-audio-codec="AAC"],
+    .torrent-page > [data-audio-codec="OPUS"] {
+        color: red;
+    }
+    
+    .torrent-page > [data-audio-codec="FLAC"] {
+        color: #c87ae8;
+    }
+    
+    .torrent-page > [data-audio-codec="DTS"],
+    .torrent-page > [data-audio-codec="DTS-ES"],
+    .torrent-page > [data-audio-codec="DTS-HD"],
+    .torrent-page > [data-audio-codec="DTS-HD MA"],
+    .torrent-page > [data-audio-codec="AC3"],
+    .torrent-page > [data-audio-codec="TrueHD"] {
+        color: #8f21be;
+    }
+    
+    .torrent-page > [data-audio-channels="5.1"],
+    .torrent-page > [data-audio-channels="6.1"] {
+        color: #02d3ee;
+    }
+    
+    
+    .torrent-page > [data-subbing="RAW"] {
+        color: red;
+    }
+    
+    .torrent-page > [data-group="Erai-raws"],
+    .torrent-page > [data-group="HorribleSubs"],
+    .torrent-page > [data-group="Moozzi2"],
+    .torrent-page > [data-group="Nep_Blanc"] {
+        color: red;
+    }
+    
+    .torrent-page > [data-group="0x539"],
+    .torrent-page > [data-group="AC"],
+    .torrent-page > [data-group="Asakura"],
+    .torrent-page > [data-group="Asenshi"],
+    .torrent-page > [data-group="Astral"],
+    .torrent-page > [data-group="Ayashii"],
+    .torrent-page > [data-group="Bakaiser"],
+    .torrent-page > [data-group="Beatrice-Raws"],
+    .torrent-page > [data-group="BlurayDesuYo"],
+    .torrent-page > [data-group="Chihiro"],
+    .torrent-page > [data-group="Coalgirls"],
+    .torrent-page > [data-group="Commie"],
+    .torrent-page > [data-group="DameDesuYo"],
+    .torrent-page > [data-group="DDY"],
+    .torrent-page > [data-group="deanzel"],
+    .torrent-page > [data-group="Dekinai"],
+    .torrent-page > [data-group="Doki"],
+    .torrent-page > [data-group="Exstasia"],
+    .torrent-page > [data-group="FFF"],
+    .torrent-page > [data-group="Foxtrot"],
+    .torrent-page > [data-group="GHS"],
+    .torrent-page > [data-group="GJM"],
+    .torrent-page > [data-group="hchcsen"],
+    .torrent-page > [data-group="hydes"],
+    .torrent-page > [data-group="Judgment"],
+    .torrent-page > [data-group="Kaleido"],
+    .torrent-page > [data-group="Kawaiika-Raws"],
+    .torrent-page > [data-group="kBaraka"],
+    .torrent-page > [data-group="LNS"],
+    .torrent-page > [data-group="LostYears"],
+    .torrent-page > [data-group="McBalls"],
+    .torrent-page > [data-group="MTBB"],
+    .torrent-page > [data-group="neko_kBaraka"],
+    .torrent-page > [data-group="Okay-Subs"],
+    .torrent-page > [data-group="PAS"],
+    .torrent-page > [data-group="RASETSU"],
+    .torrent-page > [data-group="SmugCat"],
+    .torrent-page > [data-group="Some-Stuffs"],
+    .torrent-page > [data-group="Tsundere"],
+    .torrent-page > [data-group="Vivid"],
+    .torrent-page > [data-group="YameteTomete"] {
+        color: yellow;
+    }
+    
+    .torrent-page > [data-group="Aergia"],
+    .torrent-page > [data-group="ARC"],
+    .torrent-page > [data-group="ARC"],
+    .torrent-page > [data-group="Arid"],
+    .torrent-page > [data-group="aro"],
+    .torrent-page > [data-group="ASC"],
+    .torrent-page > [data-group="Baws"],
+    .torrent-page > [data-group="CBT"],
+    .torrent-page > [data-group="CTR"],
+    .torrent-page > [data-group="Datte13"],
+    .torrent-page > [data-group="Drag"],
+    .torrent-page > [data-group="Exp"],
+    .torrent-page > [data-group="FLFL"],
+    .torrent-page > [data-group="GSK_kun"],
+    .torrent-page > [data-group="Holomux"],
+    .torrent-page > [data-group="Kametsu"],
+    .torrent-page > [data-group="KH"],
+    .torrent-page > [data-group="Kulot"],
+    .torrent-page > [data-group="Legion"],
+    .torrent-page > [data-group="Lulu"],
+    .torrent-page > [data-group="MK"],
+    .torrent-page > [data-group="Mysteria"],
+    .torrent-page > [data-group="NH"],
+    .torrent-page > [data-group="Not-Vodes"],
+    .torrent-page > [data-group="OZR"],
+    .torrent-page > [data-group="Pog42"],
+    .torrent-page > [data-group="Quetzal"],
+    .torrent-page > [data-group="Reza"],
+    .torrent-page > [data-group="sam"],
+    .torrent-page > [data-group="SCY"],
+    .torrent-page > [data-group="Seicher"],
+    .torrent-page > [data-group="Senjou"],
+    .torrent-page > [data-group="ShadyCrab"],
+    .torrent-page > [data-group="Smoke"],
+    .torrent-page > [data-group="succ_"],
+    .torrent-page > [data-group="UDF"],
+    .torrent-page > [data-group="Vanilla"],
+    .torrent-page > [data-group="Vodes"],
+    .torrent-page > [data-group="WBDP"],
+    .torrent-page > [data-group="WSE"],
+    .torrent-page > [data-group="Yoghurt"],
+    .torrent-page > [data-group="Yuki"],
+    .torrent-page > [data-group="YURI"] {
+        color: #00ff6a;
+    }
+    
+    .torrent-page > [data-source*="DVD"],
+    .torrent-page > [data-source*="DVD9"] {
+        color: #ff329f;
+    }
+    
+    .torrent-page > [data-snatched] {
+        color: blue;
+    }
+    
+    .torrent-page[data-snatched] {
+        opacity: 0.3;
+    }
+    
+    .torrent-page[data-snatched]:hover {
+        opacity: 0.8;
+    }
+    
+    .torrent-page > [data-encoding="MP3"],
+    .torrent-page > [data-bitrate="V0 (VBR)"] {
+        color: #259f30;
+    }
+    
+    .torrent-page > [data-source="CD"] {
+        color: #ff0;
+    }
+    
+    .torrent-page > [data-encoding="FLAC"],
+    .torrent-page > [data-bitrate*="Lossless"] {
+        color: #00ff17;
+    }
+    
+    .torrent-page > [data-subbing="Hardsubs"] {
+        color: red;
+    }
+    
+    .torrent-page > [data-dual-audio] {
+        color: #26a1ff;
+    }
+    
+    .torrent-page > [data-misc="Digital"] {
+        color: #00d713;
+    }
+    
+    .torrent-page > [data-misc="Ongoing"] {
+        color: yellow;
+    }
+    
+    .torrent-page > [data-translation="Raw"] {
+        color: red;
+    }
+    
+    .torrent-page > [data-misc="EPUB"] {
+        color: #26a1ff;
+    }
+    
+    body {
+        font-size: .8em;
+    }
+    #content {
+        max-width: 1100px;
+        width: 1100px;
+    }
+    .torrent_table {
+        line-height: 1.8em;
+    }
+    .torrent_group {
+        line-height: 1.8em;
+        /*
+        margin-left: -60px;
+        width: calc(100% + 120px);
+        */
+    }
+    .torrent_table td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .torrent_group td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .edition_info {
+        background-color: #111 !important;
+    }
+    .torrent_table .tabs {
+        line-height: 1.1em;
+    }
+    }
