@@ -25,7 +25,6 @@
 
     $(e).attr('target', '_blank');
 
-
   });
 
   function createnewLink(linku,link, name, blank){
@@ -60,14 +59,12 @@
 
   };
 
-
-
+  createnewLink("BHDlink","https://beyond-hd.me/torrents?search=","BHD",true);
   createnewLink("nyaalink","https://nyaa.si/?f=0&c=0_0&q=","Nyaa",true);
   createnewLink2("u2link","https://u2.dmhy.org/torrents.php?incldead=1&spstate=0&inclbookmarked=0&search=","&search_area=4&search_mode=2","U2",true);
   createnewLink("Sonarr","http://localhost:9090/add/new?term=","Sonarr",true);
   createnewLink("tvDBlink","https://www.thetvdb.com/search?query=","TVDB",true);
   createnewLink("IMDBlink","https://www.imdb.com/find?q=","IMDB",true);
   createnewLink("anilistLink","https://anilist.co/search/anime?search=","Anilist",true);
-
 
 })();
