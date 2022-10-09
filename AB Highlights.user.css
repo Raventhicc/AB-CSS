@@ -6,7 +6,6 @@
 @version 0.1.5
 @Edited version of Datte13's
 ==/UserStyle== */
-
 @-moz-document domain("animebytes.tv") {
     .torrent-page > .torrent-field {
         border-radius: 0px;
@@ -16,66 +15,66 @@
         padding-bottom: 0px;
         word-spacing: normal;
     }
-    
+
     .torrent_table .group_torrent > td:first-child {
         word-spacing: -0.3ex;
     }
-    
+
     .torrent-page > [data-group],
     .torrent-page > [data-region] {
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .torrent-page > [data-source*="Blu-ray"] {
         color: #26a1ff;
     }
-    
+
     .torrent-page > [data-source="TV"] {
         color: #f00;
     }
     .torrent-page > [data-source="Web"] {
         color: #ff8000;
     }
-    
+
     .torrent-page > [data-container*="ISO"],
     .torrent-page > [data-container*="M2TS"],
     .torrent-page > [data-container*="MP4"] {
         color: red;
     }
-    
+
     .torrent-page > [data-container*="MKV"] {
         color: #f1c40f;
     }
-    
+
     .torrent-page > [data-codec="h264 10-bit"],
     .torrent-page > [data-codec="h264"] {
         color: #7deb7d;
     }
-    
+
     .torrent-page > [data-codec="h265"],
     .torrent-page > [data-codec="h265 10-bit"] {
         color: #16a5a5;
     }
-    
+
     .torrent-page > [data-resolution="4K"] {
         color: yellow;
     }
-    
+
     .torrent-page > [data-resolution="1080p"] {
         color: #f1c40f;
     }
-    
+
     .torrent-page > [data-audio-codec="MP3"],
     .torrent-page > [data-audio-codec="AAC"],
-    .torrent-page > [data-audio-codec="OPUS"] {
-        color: red;
+    .torrent-page > [data-audio-codec="Opus"] {
+        color: #00ffea;
     }
-    
+
     .torrent-page > [data-audio-codec="FLAC"] {
         color: #c87ae8;
     }
-    
+
     .torrent-page > [data-audio-codec="DTS"],
     .torrent-page > [data-audio-codec="DTS-ES"],
     .torrent-page > [data-audio-codec="DTS-HD"],
@@ -84,24 +83,27 @@
     .torrent-page > [data-audio-codec="TrueHD"] {
         color: #8f21be;
     }
-    
+
     .torrent-page > [data-audio-channels="5.1"],
     .torrent-page > [data-audio-channels="6.1"] {
         color: #02d3ee;
     }
-    
-    
+
+    .torrent-page > [data-audio-channels="1.0"] {
+        color: #f00c;
+    }
+
     .torrent-page > [data-subbing="RAW"] {
         color: red;
     }
-    
+
     .torrent-page > [data-group="Erai-raws"],
     .torrent-page > [data-group="HorribleSubs"],
     .torrent-page > [data-group="Moozzi2"],
     .torrent-page > [data-group="Nep_Blanc"] {
         color: red;
     }
-    
+
     .torrent-page > [data-group="0x539"],
     .torrent-page > [data-group="AC"],
     .torrent-page > [data-group="Asakura"],
@@ -145,7 +147,7 @@
     .torrent-page > [data-group="YameteTomete"] {
         color: yellow;
     }
-    
+
     .torrent-page > [data-group="Aergia"],
     .torrent-page > [data-group="ARC"],
     .torrent-page > [data-group="ARC"],
@@ -192,62 +194,62 @@
     .torrent-page > [data-group="YURI"] {
         color: #00ff6a;
     }
-    
+
     .torrent-page > [data-source*="DVD"],
     .torrent-page > [data-source*="DVD9"] {
         color: #ff329f;
     }
-    
+
     .torrent-page > [data-snatched] {
         color: blue;
     }
-    
+
     .torrent-page[data-snatched] {
         opacity: 0.3;
     }
-    
+
     .torrent-page[data-snatched]:hover {
         opacity: 0.8;
     }
-    
+
     .torrent-page > [data-encoding="MP3"],
     .torrent-page > [data-bitrate="V0 (VBR)"] {
         color: #259f30;
     }
-    
+
     .torrent-page > [data-source="CD"] {
         color: #ff0;
     }
-    
+
     .torrent-page > [data-encoding="FLAC"],
     .torrent-page > [data-bitrate*="Lossless"] {
         color: #00ff17;
     }
-    
+
     .torrent-page > [data-subbing="Hardsubs"] {
         color: red;
     }
-    
+
     .torrent-page > [data-dual-audio] {
         color: #26a1ff;
     }
-    
+
     .torrent-page > [data-misc="Digital"] {
         color: #00d713;
     }
-    
+
     .torrent-page > [data-misc="Ongoing"] {
         color: yellow;
     }
-    
+
     .torrent-page > [data-translation="Raw"] {
         color: red;
     }
-    
+
     .torrent-page > [data-misc="EPUB"] {
         color: #26a1ff;
     }
-    
+
     body {
         font-size: .8em;
     }
@@ -279,4 +281,4 @@
     .torrent_table .tabs {
         line-height: 1.1em;
     }
-    }
+}
